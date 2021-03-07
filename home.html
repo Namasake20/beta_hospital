@@ -3,8 +3,33 @@
   <head>
     <meta charset="utf-8">
     <title>Beta hospital</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <!--css theme-->
+    <link rel="stylesheet" href="style.default.css" id="theme-stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <style media="screen">
+      .card{
+        padding: 10px;
+        background-Color: #3498DB;
+        margin: 10px;
+      }
+      .card1{
+        padding: 10px;
+        margin: 10px;
+      }
+      .footer{
+        position: relative;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        height: 100px;
+        margin-bottom: 0;
+        padding: 10px;
+        background-Color: #3498DB;
 
+      }
+
+    </style>
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #3498DB">
@@ -89,10 +114,13 @@
     <div class="container">
       <div class="row">
         <div class="col-6">
-          <h1>WELCOME TO BETA HOSPITAL</h1>
-          <p>
-            Beta hospital stands out as an excellent health facility due to its oustanding stuff,modern facilities and great services.
-          </p>
+          <div class="card1">
+            <h2 style="font-family:sans serif;font: 60px">WELCOME TO BETA HOSPITAL</h2>
+            <p>
+              Beta hospital stands out as an excellent health facility due to its oustanding stuff,modern facilities and great services.
+            </p>
+
+          </div>
 
         </div>
         <div class="col-6">
@@ -113,7 +141,33 @@
       </div>
 
     </div>
-    
+
+
+    </div>
+    <div class="container-fluid">
+      <div class="footer">
+        <div class="row">
+          <div class="col-6">
+            <div class="form-outline form-white mb-4">
+              <label for="">
+                  <strong>Sign Up for our newsletter</strong>
+              </label>
+              <input type="email" id="form5Example2" class="form-control" />
+              <label class="form-label" for="form5Example2">Email address</label>
+            </div>
+
+          </div>
+          <div class="col-auto">
+            <button style = "margin: 22px"type="submit" name="button" class="btn btn-outline-light mb-4">
+              Subscribe
+
+            </button>
+
+          </div>
+
+        </div>
+
+      </div>
 
     </div>
 
